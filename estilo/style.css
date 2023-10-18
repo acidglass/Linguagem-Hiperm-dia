@@ -1,0 +1,32 @@
+body{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background: rgb(82, 73, 255);
+    /* background: linear-gradient(310deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+    text-align: justify;
+}
+
+#container{
+    width: 60%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 200px;
+    border: solid 2px black;
+    box-shadow: 10px 10px 15px rgb(44, 44, 44);
+    padding: 15px 40px;
+}
+
+#containerIMG{
+    max-width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.scroll{
+    background: whitesmoke;
+    width: 400px;
+    margin: 10% auto;
+    overflow: hidden;
+    overflow-y: scroll;
+}
