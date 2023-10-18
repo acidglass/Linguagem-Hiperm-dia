@@ -1,26 +1,33 @@
 body{
     background-size: 100%;
     background-repeat: no-repeat;
-    background: rgb(82, 73, 255);
+    background: rgb(21, 174, 88);
     /* background: linear-gradient(310deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
-    text-align: justify;
 }
 
 #container{
-    width: 60%;
+    width: 50%;
     height: 600px;
     margin: 0 auto;
-    margin-top: 200px;
+    margin-top: 100px;
     border: solid 2px black;
     box-shadow: 10px 10px 15px rgb(44, 44, 44);
     padding: 15px 40px;
+    text-align: justify;
+    font-size: larger;
 }
 
 #containerIMG{
-    max-width: 100%;
+    border-radius: 12px;
+    border: solid 2px rgb(117, 117, 117);
+    max-width: 70%;
     position: relative;
     left: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
     transform: translateX(-50%);
+    box-shadow: 10px 10px 25px rgb(44, 44, 44);
+
 }
 
 .scroll{
@@ -29,4 +36,26 @@ body{
     margin: 10% auto;
     overflow: hidden;
     overflow-y: scroll;
+}
+
+#bloco1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+#bloco2{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: left;
+}
+
+#bloco3{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: left;
+}
+
+.blocoTXT{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
