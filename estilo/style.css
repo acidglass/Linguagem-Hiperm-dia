@@ -1,7 +1,9 @@
 body{
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    background: rgb(21, 174, 88);
+    background-color: whitesmoke;
+    background-image: url("https://img.freepik.com/free-photo/top-view-old-french-newspaper-pieces_23-2149318857.jpg?w=1380&t=st=1697726867~exp=1697727467~hmac=191e702d1fc0ac892900625dc7ec3415f50ded27a33ab598b403eceabd3e95c6");
+    background-blend-mode: luminosity;
 }
 
 body, header {
@@ -10,7 +12,10 @@ body, header {
 }
 
 header {
-    background-color: #8fc3a4;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: rgb(0, 0, 255);
     color: #fff;
     padding: 10px;
 }
@@ -24,8 +29,8 @@ header {
 
 .logo img {
     display: flex;
-    margin-left: 120px;
-    max-width: 150px;
+    margin-left: 150px;
+    max-width: 100px;
 }
 
 .menu ul {
@@ -44,22 +49,24 @@ header {
     font-weight: bold;
 }
 
-
-#container{
+.scroll{
+    background: whitesmoke;
     width: 50%;
     height: 600px;
-    margin: 0 auto;
+    margin: 10% auto;
     margin-top: 100px;
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
     border: solid 2px black;
     box-shadow: 10px 10px 15px rgb(44, 44, 44);
-    padding: 15px 40px;
-    text-align: justify;
+    padding: 15px 90px;
+    text-align: left;
     font-size: larger;
 }
 
-#containerIMG{
+.scroll img, iframe{
     border-radius: 12px;
-    border: solid 2px rgb(117, 117, 117);
     max-width: 70%;
     position: relative;
     left: 50%;
@@ -69,32 +76,43 @@ header {
     box-shadow: 10px 10px 25px rgb(44, 44, 44);
 }
 
-.scroll{
-    background: whitesmoke;
-    width: 400px;
-    margin: 10% auto;
-    overflow: hidden;
-    overflow-y: scroll;
+#legenda{
+    text-align: center;
+    font-size: 80%;
+    font-style: italic;
+    margin-top: -10px;
+    margin-bottom: 40px;
 }
 
-#bloco1{
+.scroll h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: left;
-    text-transform: uppercase;
+    font-size: 70px;
+    margin-bottom: 0;
 }
 
-#bloco2{
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    text-align: left;
-}
-
-#bloco3{
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    text-align: left;
-}
-
-.blocoTXT{
+#subtitulo{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-right: 43%;
+}
+
+#info{
+    font-family: sans-serif;
+    color: rgb(0, 0, 255);
+    font-size: 16px;
+}
+
+.scroll h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: left;
+    font-size: 50px;
+}
+
+.scroll p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
 }
