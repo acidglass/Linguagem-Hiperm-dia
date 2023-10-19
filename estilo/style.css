@@ -5,6 +5,57 @@ body{
     /* background: linear-gradient(310deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
 }
 
+body, header {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8fc3a4;
+    color: #fff;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+
+
+.logo img {
+    display: flex;
+    margin-right:100px;
+    max-width: 100px;
+}
+
+
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav .active a, nav a:hover{
+
+    background-color: #b7d4ae;
+    color: #ffffff;
+
+}
+
 #container{
     width: 50%;
     height: 600px;
