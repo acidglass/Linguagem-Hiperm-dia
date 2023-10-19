@@ -1,9 +1,8 @@
 body{
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: whitesmoke;
-    background-image: url("https://img.freepik.com/free-photo/top-view-old-french-newspaper-pieces_23-2149318857.jpg?w=1380&t=st=1697726867~exp=1697727467~hmac=191e702d1fc0ac892900625dc7ec3415f50ded27a33ab598b403eceabd3e95c6");
-    background-blend-mode: luminosity;
+    background-color: cornflowerblue;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url("https://img.freepik.com/free-photo/top-view-old-french-newspaper-pieces_23-2149318857.jpg?w=1380&t=st=1697726867~exp=1697727467~hmac=191e702d1fc0ac892900625dc7ec3415f50ded27a33ab598b403eceabd3e95c6");
 }
 
 body, header {
@@ -11,12 +10,16 @@ body, header {
     padding: 0;
 }
 
+hr{
+    margin-bottom: 40px;
+}
+
 header {
     position: sticky;
     top: 0;
     z-index: 999;
     background-color: cornflowerblue;
-    color: #fff;
+    color: whitesmoke;
     padding: 10px;
 }
 
@@ -45,7 +48,7 @@ header {
 
 .menu a {
     text-decoration: none;
-    color: #fff;
+    color: whitesmoke;
     font-weight: bold;
 }
 
@@ -55,6 +58,7 @@ header {
     height: 600px;
     margin: 10% auto;
     margin-top: 100px;
+    margin-bottom: 20px;
     overflow: hidden;
     overflow-y: scroll;
     overflow-wrap: break-word;
@@ -63,6 +67,15 @@ header {
     padding: 15px 90px;
     text-align: left;
     font-size: larger;
+}
+
+.scroll a{
+    color: blue;
+}
+
+.scroll a:visited{
+    color: darkgreen;
+    font-weight: bolder;
 }
 
 #borda{
@@ -108,7 +121,7 @@ header {
 }
 
 #info{
-    font-family: sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     color: rgb(0, 0, 255);
     font-size: 16px;
 }
@@ -123,4 +136,43 @@ header {
 .scroll p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
+}
+
+.adicionais{
+    background: whitesmoke;
+    width: 50%;
+    height: 270px;
+    margin: 10% auto;
+    margin-top: 70px;
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+    border: solid 2px black;
+    padding: 15px 90px;
+    text-align: left;
+    font-size: larger;
+}
+
+.adicionais ul{
+    list-style: decimal;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.adicionais li{
+    margin-bottom: 10px;
+}
+
+.adicionais a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0026ff;
+}
+
+.adicionais a:visited{
+    color: darkgreen;
+    font-weight: bolder;
+}
+
+.adicionais em{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
