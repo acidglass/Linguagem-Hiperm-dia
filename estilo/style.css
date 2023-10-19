@@ -2,7 +2,6 @@ body{
     background-size: 100%;
     background-repeat: no-repeat;
     background: rgb(21, 174, 88);
-    /* background: linear-gradient(310deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
 }
 
 body, header {
@@ -23,15 +22,11 @@ header {
     padding: 0 20px;
 }
 
-
-
 .logo img {
     display: flex;
-    margin-right:100px;
-    max-width: 100px;
+    margin-left: 120px;
+    max-width: 150px;
 }
-
-
 
 .menu ul {
     list-style: none;
@@ -40,7 +35,7 @@ header {
 }
 
 .menu li {
-    margin-right: 20px;
+    margin-right: 95px;
 }
 
 .menu a {
@@ -49,12 +44,6 @@ header {
     font-weight: bold;
 }
 
-nav .active a, nav a:hover{
-
-    background-color: #b7d4ae;
-    color: #ffffff;
-
-}
 
 #container{
     width: 50%;
@@ -78,7 +67,6 @@ nav .active a, nav a:hover{
     margin-bottom: 30px;
     transform: translateX(-50%);
     box-shadow: 10px 10px 25px rgb(44, 44, 44);
-
 }
 
 .scroll{
