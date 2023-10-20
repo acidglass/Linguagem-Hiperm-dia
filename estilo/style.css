@@ -218,7 +218,7 @@ header {
     }
 
     #subtitulo {
-         font-size: 3.2vh; /* Reduzido de 4vh */
+         font-size: 3.1vh; /* Reduzido de 4vh */
     }
 
     #info {
@@ -270,7 +270,7 @@ header {
     }
 
     #subtitulo {
-         font-size: 2.6vh; /* Reduzido de 4vh */
+         font-size: 2.5vh; /* Reduzido de 4vh */
     }
 
     #info {
@@ -307,7 +307,6 @@ header {
     }
 
     .adicionais {
-        padding: 1.1vh 5.56vh;
         font-size: 1.5vh;
     }
 }
