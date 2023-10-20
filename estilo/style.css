@@ -236,7 +236,7 @@ header {
 
     .scroll img, iframe {
         border-radius: 1vh; /* Reduzido de 1.27vh */
-        width: 80%; /* Aumentado de 70% */
+        width: 30%; /* Aumentado de 70% */
         margin-top: 2vh; /* Reduzido de 3.2vh */
         margin-bottom: 2vh; /* Reduzido de 3.2vh */
         box-shadow: 1vh 1vh 2.4vh rgb(44, 44, 44); /* Ajustado um pouco */
@@ -292,7 +292,7 @@ header {
 
     .scroll img, iframe {
         border-radius: 0.8vh; /* Reduzido de 1.27vh */
-        width: 80%; /* Aumentado de 70% */
+        width: 20%; /* Aumentado de 70% */
         margin-top: 1.8vh; /* Reduzido de 3.2vh */
         margin-bottom: 1.8vh; /* Reduzido de 3.2vh */
         box-shadow: 0.8vh 0.8vh 2vh rgb(44, 44, 44); /* Ajustado um pouco */
