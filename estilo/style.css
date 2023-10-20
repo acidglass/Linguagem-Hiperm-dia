@@ -210,7 +210,7 @@ header {
     }
 
     .scroll {
-        margin: 3% auto;
+        padding: 1.6vh 5.0vh;
     }
 
     .scroll h1 {
@@ -218,7 +218,7 @@ header {
     }
 
     #subtitulo {
-     font-size: 2.1vh; /* Reduzido de 4vh */
+         font-size: 2.1vh; /* Reduzido de 4vh */
     }
 
     #info {
@@ -261,7 +261,7 @@ header {
     }
 
     .scroll {
-        margin: 3% auto;
+        padding: 1.6vh 2.5vh;
     }
 
     .scroll h1 {
@@ -269,7 +269,7 @@ header {
     }
 
     #subtitulo {
-     font-size: 2vh; /* Reduzido de 4vh */
+         font-size: 2vh; /* Reduzido de 4vh */
     }
 
     #info {
