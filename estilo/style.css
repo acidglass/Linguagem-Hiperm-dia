@@ -235,7 +235,7 @@ header {
     
     .scroll p {
         font-size: 1.9vh;
-        padding: 1.6vh 5.0vh;
+        padding: 1.6vh 1.5vh;
     }
 
     .scroll img, iframe {
@@ -291,7 +291,7 @@ header {
 
     .scroll p {
         font-size: 1.6vh; /* Reduzido de 1.8vh */
-        padding: 1.6vh 2.5vh;
+        padding: 1.6vh 0.5vh;
     }
 
     .scroll img, iframe {
