@@ -10,6 +10,14 @@ body, header {
     padding: 0;
 }
 
+.zoom {
+    transition: transform 0.3s;
+}
+
+.zoom:hover {
+    transform: scale(1.4);
+}
+
 hr{
     margin-bottom: 40px;
 }
@@ -187,4 +195,5 @@ header {
 .adicionais em{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 
