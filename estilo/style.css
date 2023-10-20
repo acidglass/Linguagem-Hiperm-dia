@@ -210,12 +210,7 @@ header {
     }
 
     #borda {
-        width:35%;
-        float: right;
-        position: relative;
-        margin: -5%;
-        border-radius: 0%;
-        box-shadow: none;
+        display: none;
     }
 
     .scroll h1 {
@@ -240,7 +235,7 @@ header {
 
     .scroll img, iframe {
         border-radius: 1vh; /* Reduzido de 1.27vh */
-        max-width: 80%; /* Aumentado de 70% */
+        width: 80%; /* Aumentado de 70% */
         margin-top: 2vh; /* Reduzido de 3.2vh */
         margin-bottom: 2vh; /* Reduzido de 3.2vh */
         box-shadow: 1vh 1vh 2.4vh rgb(44, 44, 44); /* Ajustado um pouco */
@@ -266,12 +261,7 @@ header {
     }
 
     #borda{
-        width:15%;
-        float: right;
-        position: relative;
-        margin: -2%;
-        border-radius: 0%;
-        box-shadow: none;
+        display: none;
     }
 
     .scroll h1 {
@@ -296,7 +286,7 @@ header {
 
     .scroll img, iframe {
         border-radius: 0.8vh; /* Reduzido de 1.27vh */
-        max-width: 100%; /* Aumentado de 70% */
+        width: 80%; /* Aumentado de 70% */
         margin-top: 1.8vh; /* Reduzido de 3.2vh */
         margin-bottom: 1.8vh; /* Reduzido de 3.2vh */
         box-shadow: 0.8vh 0.8vh 2vh rgb(44, 44, 44); /* Ajustado um pouco */
