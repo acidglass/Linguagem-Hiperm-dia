@@ -218,11 +218,12 @@ header {
     }
 
     #subtitulo {
-         font-size: 2.8vh; /* Reduzido de 4vh */
+         font-size: 3.2vh; /* Reduzido de 4vh */
     }
 
     #info {
-        font-size: 1.5vh;
+        font-size: 1.7vh;
+        font-weight: bold;
     }
 
     .scroll h2 {
@@ -269,11 +270,12 @@ header {
     }
 
     #subtitulo {
-         font-size: 2.2vh; /* Reduzido de 4vh */
+         font-size: 2.6vh; /* Reduzido de 4vh */
     }
 
     #info {
-        font-size: 1.3vh; /* Reduzido de 1.5vh */
+        font-size: 1.4vh; /* Reduzido de 1.5vh */
+        font-weight: bold;
     }
 
     .scroll h2 {
@@ -302,5 +304,10 @@ header {
         margin-bottom: 4.2vh; /* Ajustado */
         -webkit-transition: 0.4s ease-in-out; /* Ajustado */
         transition: 0.4s ease-in-out; /* Ajustado */
+    }
+
+    .adicionais {
+        padding: 1.1vh 5.56vh;
+        font-size: 1.5vh;
     }
 }
