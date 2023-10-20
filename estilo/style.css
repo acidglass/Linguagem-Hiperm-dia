@@ -214,11 +214,11 @@ header {
     }
 
     .scroll h1 {
-        font-size: 3.5vh; /* Reduzido de 5.15vh */
+        font-size: 3.7vh; /* Reduzido de 5.15vh */
     }
 
     #subtitulo {
-     font-size: 1.85vh; /* Reduzido de 4vh */
+     font-size: 2.1vh; /* Reduzido de 4vh */
     }
 
     #info {
@@ -230,7 +230,7 @@ header {
     }
     
     .scroll p {
-        font-size: 1.8vh;
+        font-size: 1.9vh;
     }
 
     .scroll img, iframe {
@@ -286,7 +286,7 @@ header {
 
     .scroll img, iframe {
         border-radius: 0.8vh; /* Reduzido de 1.27vh */
-        max-width: 90%; /* Aumentado de 70% */
+        max-width: 100%; /* Aumentado de 70% */
         margin-top: 1.8vh; /* Reduzido de 3.2vh */
         margin-bottom: 1.8vh; /* Reduzido de 3.2vh */
         box-shadow: 0.8vh 0.8vh 2vh rgb(44, 44, 44); /* Ajustado um pouco */
