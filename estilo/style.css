@@ -33,6 +33,7 @@ header {
     background-color: cornflowerblue;
     color: whitesmoke;
     padding: 10px;
+    width: 98.9%;
 }
 
 .container {
@@ -45,7 +46,7 @@ header {
 .logo img {
     display: flex;
     margin-left: 150px;
-    max-width: 100px;
+    max-width: 10%;
 }
 
 .menu ul {
@@ -117,6 +118,7 @@ header {
     padding: 8px;
     margin: 0px;
     font-size: 14px;
+    width: 99%;
 }
 
 
