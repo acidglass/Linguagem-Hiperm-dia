@@ -3,7 +3,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-color: cornflowerblue;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url("https://img.freepik.com/free-photo/top-view-old-french-newspaper-pieces_23-2149318857.jpg?w=1380&t=st=1697726867~exp=1697727467~hmac=191e702d1fc0ac892900625dc7ec3415f50ded27a33ab598b403eceabd3e95c6");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url("https://img.freepik.com/free-photo/top-view-old-french-newspaper-pieces_23-2149318857.jpg?w=1380&t=st=1697726867~exp=1697727467~hmac=191e702d1fc0ac892900625dc7ec3415f50ded27a33ab598b403eceabd3e95c6"); 
 }
 
 body, header {
@@ -111,7 +111,7 @@ hr{
     box-shadow: 1.06vh 1.06vh 2.65vh rgb(44, 44, 44);
 }
 
-/* .rodape {
+.rodape {
     background-color: cornflowerblue;
     color: #fff;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -121,7 +121,7 @@ hr{
     font-size: 1.49vh;
     width: 100%;
 }
- */
+
 
 #legenda{
     text-align: center;
@@ -176,7 +176,7 @@ hr{
     border: solid 0.2vh black;
     padding: 1.6vh 9.56vh;
     text-align: left;
-    font-size: larger;
+    font-size: 2.1vh;
 }
 
 .adicionais ul{
