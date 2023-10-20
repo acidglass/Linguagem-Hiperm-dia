@@ -97,6 +97,17 @@ header {
     box-shadow: 10px 10px 25px rgb(44, 44, 44);
 }
 
+.rodape {
+    background-color: cornflowerblue;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 8px;
+    margin: 0px;
+    font-size: 14px;
+}
+
+
 #legenda{
     text-align: center;
     font-size: 80%;
