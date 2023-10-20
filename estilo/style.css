@@ -2,8 +2,8 @@ body{
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: cornflowerblue;/* 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url("https://img.freepik.com/free-photo/top-view-old-french-newspaper-pieces_23-2149318857.jpg?w=1380&t=st=1697726867~exp=1697727467~hmac=191e702d1fc0ac892900625dc7ec3415f50ded27a33ab598b403eceabd3e95c6");  */
+    background-color: cornflowerblue;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url("https://img.freepik.com/free-photo/top-view-old-french-newspaper-pieces_23-2149318857.jpg?w=1380&t=st=1697726867~exp=1697727467~hmac=191e702d1fc0ac892900625dc7ec3415f50ded27a33ab598b403eceabd3e95c6");
 }
 
 body, header {
