@@ -209,7 +209,7 @@ header {
         display: none;
     }
 
-    .#borda {
+    #borda {
         padding: 1.6vh 5.0vh;
     }
 
