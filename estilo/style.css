@@ -80,7 +80,6 @@ hr{
     box-shadow: 1.06vh 1.06vh 1.6vh rgb(44, 44, 44);
     padding: 1.6vh 9.56vh;
     text-align: left;
-    font-size: larger;
 }
 
 .scroll a{
@@ -95,7 +94,7 @@ hr{
 #borda{
     width:65%;
     float: right;
-    margin: -10%;
+    margin: -12%;
     border-radius: 0%;
     box-shadow: none;
 }
@@ -134,13 +133,13 @@ hr{
 .scroll h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: left;
-    font-size: 5.85vh;
+    font-size: 5.15vh;
     margin-bottom: 0;
 }
 
 #subtitulo{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 4.25vh;
+    font-size: 4vh;
     font-weight: bold;
     margin-top: 0;
     margin-right: 43%;
