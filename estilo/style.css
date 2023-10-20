@@ -94,6 +94,7 @@ hr{
 #borda{
     width:65%;
     float: right;
+    position: relative;
     margin: -12%;
     border-radius: 0%;
     box-shadow: none;
@@ -155,12 +156,12 @@ hr{
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     text-align: left;
-    font-size: 5.3vh;
+    font-size: 4.7vh;
 }
 
 .scroll p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2.1vh;
+    font-size: 2vh;
 }
 
 .adicionais{
