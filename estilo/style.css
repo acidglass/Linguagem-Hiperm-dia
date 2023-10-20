@@ -252,8 +252,16 @@ header {
         display: none;
     }
 
+    .scroll {
+        margin: 3% auto;
+    }
+
     .scroll h1 {
-        font-size: 3vh; /* Reduzido de 3.5vh */
+        font-size: 3.1vh; /* Reduzido de 3.5vh */
+    }
+
+    #subtitulo {
+     font-size: 1.85vh; /* Reduzido de 4vh */
     }
 
     #info {
